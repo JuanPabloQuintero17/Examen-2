@@ -1,7 +1,7 @@
 package vista;
 
 import modelo.*;
-import logica.*,
+import logica.*;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -23,7 +23,7 @@ public class FrmOperadorLogistico extends JFrame {
         setLayout(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        // ICONOS
+        
         ImageIcon iconoAgregar = new ImageIcon(getClass().getResource("/iconos/agregar.jpeg"));
         JLabel lblAgregar = new JLabel(iconoAgregar);
         lblAgregar.setBounds(20, 5, 64, 64);
@@ -34,7 +34,7 @@ public class FrmOperadorLogistico extends JFrame {
         lblEliminar.setBounds(90, 5, 64, 64);
         add(lblEliminar);
 
-        // EVENTOS EN ICONOS
+        
         lblAgregar.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
                 guardar();
@@ -47,7 +47,7 @@ public class FrmOperadorLogistico extends JFrame {
             }
         });
 
-        // CAMPOS
+        
         addLabel("Número:", 20, 80);
         txtCodigo = addTextField(100, 80);
 

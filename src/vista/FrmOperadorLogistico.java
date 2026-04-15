@@ -1,7 +1,7 @@
 package vista;
 
 import modelo.*;
-import logica.*;
+import logica.*,
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

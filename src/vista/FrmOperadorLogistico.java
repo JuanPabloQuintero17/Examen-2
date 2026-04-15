@@ -54,10 +54,10 @@ public class FrmOperadorLogistico extends JFrame {
         addLabel("Cliente:", 20, 110);
         txtCliente = addTextField(100, 110);
 
-        addLabel("Peso:", 20, 140);
+        addLabel("Peso (kg):", 20, 140);
         txtPeso = addTextField(100, 140);
 
-        addLabel("Distancia:", 220, 140);
+        addLabel("Distancia (km):", 205, 140);
         txtDistancia = addTextField(300, 140);
 
         addLabel("Tipo:", 220, 80);
